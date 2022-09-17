@@ -10,7 +10,7 @@ header {
 header div {
   width: 120px;
   margin: auto;
-  background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+  background-image: linear-gradient(90deg, #f50303 0%, #530202 50.52%, #080001 100%);
 
   border-radius: 50%;
 
@@ -42,11 +42,11 @@ ul{
 }
 
 body {
-  background-image:url(../imagens/Fundo\ \(1\).jpg);
+  background-image:url(../imagens/806443.webp);
   background-position: top center;
-  background-size:100% auto;
+  background-size:  100% auto;
   background-repeat: no-repeat;
-  background-color:#121214;
+  background-color:#000007;
 }
 
 body * {
@@ -68,19 +68,24 @@ main {
 
 section{
   color:white;
-  background-image: linear-gradient(90deg,#9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+  background-image: linear-gradient(90deg, #f50303 0%, #530202 50.52%, #080001 100%);
   padding-top: 4px;
   border-radius: 10px; 
-  /
+  
 }
 
 section div {
-  background-color: #2a2634 ;
+  background-color: #030303 ;
   padding: 32px;
   padding-top: 24px;
   border-radius: 8px;
   
 
+}
+
+section div:hover {
+  transform: scale(1.1)
+  
 }
 
 section h2 {
@@ -114,7 +119,7 @@ section li {
 .games-list img{
   border-radius: 8px;
   width: 90px;
-  background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+  background-image: linear-gradient(90deg, #f50303 0%, #530202 50.52%, #080001 100%);
   display: flex;
   padding: 4px;
 
@@ -124,7 +129,7 @@ section li {
   border-radius: 50%;
   width: 70px;
   
-  background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+  background-image: linear-gradient(90deg, #f50303 0%, #530202 50.52%, #080001 100%);
   display: flex;
   padding: 4px;
 }
@@ -173,3 +178,4 @@ main section:nth-child(3) {
       transform: translatex(0)
   }
 }
+
